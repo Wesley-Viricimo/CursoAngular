@@ -1,6 +1,7 @@
 <div class="card">
   <!--USANDO INTERPOLAÇÃO DE STRINGS-->
+  <!--OPTIONAL CHAIN, UMA VALIDAÇÃO QUE PODE OU NAO ENCONTRAR INFORMAÇÃO NAS PROPRIEDADES-->
   <div class="card__plan card__item">Plano <b>{{ plano.infos.tipo }}</b></div>
-  <div class="card__price card__item">{{ plano.infos.preco }}</div>
+  <div class="card__price card__item">R${{ plano.infos.preco }},00/Mês</div>
   <app-card-button></app-card-button>
 </div>
