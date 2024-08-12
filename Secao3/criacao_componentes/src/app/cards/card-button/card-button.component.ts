@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './card-button.component.scss'
 })
 export class CardButtonComponent {
-
+  exibirLog() {
+    console.log("Botão clicado")
+  }
 }
