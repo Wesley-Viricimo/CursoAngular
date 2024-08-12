@@ -20,3 +20,8 @@
     font-size: 48px;
   }
 }
+
+//ALTERANDO O CSS DE UMA TAG DO COMPONENTE FILHO A PARTIR DO COMPONENTE PAI
+::ng-deep .card-cancel-button {
+  background-color: yellow !important;
+}
