@@ -1,3 +1,4 @@
+import { MatSliderModule } from '@angular/material/slider';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardRoxoComponent } from './card-roxo/card-roxo.component';
@@ -15,7 +16,8 @@ import { CardButtonCancelComponent } from './card-button-cancel/card-button-canc
     CardButtonCancelComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatSliderModule
   ],
   //Configuração para os componentes deste módulo poderem ser utilizados por outros módulos, neste caso no app-module(modulo principal)
   exports: [
